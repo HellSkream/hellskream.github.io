@@ -104,12 +104,34 @@ a:hover {
     background-size: cover;
 }
 
-.gproject header::before {
+/* .gproject header::before { */
+.gproject header {
     background: url(../images/mike-kenneally-TD4DBagg2wE-unsplash.jpg) center;
     background-size: cover;
     content: "";
-    display: block;
+    /* display: block; */
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 20px; */
+
+}
+
+.gproject li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+header img {
+    width: 32px;
+}
+
+header img:hover {
+    opacity: 0.5;
+}
+.gproject .header-wrapper {
+    background: rgba(30, 163, 74, 0.8);
+    width: 1200px;
 }
 
 .gproject .content-wrapper {
