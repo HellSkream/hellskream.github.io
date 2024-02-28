@@ -148,7 +148,7 @@ a:hover {
 ----------------------------*/
 .gproject {
     background: url(../images/harry-cunningham-0BcAvV524Aw-unsplash.jpg) no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
 
 /* .gproject header::before { */
@@ -158,6 +158,7 @@ a:hover {
     content: "";
     /* display: block; */
     height: 100px;
+    /* position: fixed; */
     display: flex;
     justify-content: space-between;
     /* padding: 0 20px; */
@@ -191,6 +192,11 @@ header img:hover {
 .gproject .content-wrapper {
     background: rgb(255 255 255 / 0.8);
     width: 1200px;
+}
+
+.gproject .graphs {
+    text-align: center;
+    margin-right: 0;
 }
 
 .project-item {
